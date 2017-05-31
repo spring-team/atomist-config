@@ -1,12 +1,14 @@
 {
   "broadcast": {
-    "myseed": {
+    "spring-rest-seed": {
       "features": [
         {
           "name": "SpringBoot.Structure",
           "followers": [
-            "bar",
-            "that"
+            "geecon1",
+            "geecon2",
+            "demo1",
+            "demo2"
           ]
         },
         {
