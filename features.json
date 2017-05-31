@@ -1,0 +1,21 @@
+{
+  "broadcast": {
+    "myseed": {
+      "features": [
+        {
+          "name": "SpringBoot.Structure",
+          "followers": [
+            "bar",
+            "that"
+          ]
+        },
+        {
+          "name": "baz",
+          "followers": [
+            
+          ]
+        }
+      ]
+    }
+  }
+}
