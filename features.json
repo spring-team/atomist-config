@@ -1,23 +1,22 @@
 {
-  "broadcast": {
-    "spring-rest-seed": {
-      "features": [
-        {
-          "name": "SpringBoot.Structure",
-          "followers": [
-            "geecon1",
-            "geecon2",
-            "demo1",
-            "demo2"
-          ]
-        },
-        {
-          "name": "baz",
-          "followers": [
-            
-          ]
+    "broadcast": {
+        "spring-rest-seed": {
+            "features": [
+                {
+                    "name": "SpringBoot.Structure",
+                    "followers": [
+                        "geecon1",
+                        "geecon2",
+                        "demo1",
+                        "demo2",
+                        "demo8"
+                    ]
+                },
+                {
+                    "name": "baz",
+                    "followers": []
+                }
+            ]
         }
-      ]
     }
-  }
 }
