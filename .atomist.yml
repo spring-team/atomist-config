@@ -26,3 +26,17 @@ editor:
     - "follower": "redemption"
     - "featureName": "SpringBoot.Structure"
 
+---
+kind: "operation"
+client: "com.atomist:rug"
+version: "1.0.0-20170602144934"
+editor:
+  name: "AddFeatureFollowerEditor"
+  group: "atomist"
+  artifact: "spring-team-handlers"
+  version: "0.1.168"
+  parameters:
+    - "broadcaster": "spring-rest-seed"
+    - "follower": "test"
+    - "featureName": "SpringBoot.Structure"
+
