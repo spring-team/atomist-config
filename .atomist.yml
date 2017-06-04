@@ -54,3 +54,17 @@ editor:
     - "follower": "may-this-be-love"
     - "featureName": "SpringBoot.Structure"
 
+---
+kind: "operation"
+client: "com.atomist:rug"
+version: "1.0.0-20170602144934"
+editor:
+  name: "AddFeatureFollowerEditor"
+  group: "atomist"
+  artifact: "spring-team-handlers"
+  version: "0.1.171"
+  parameters:
+    - "broadcaster": "spring-rest-seed"
+    - "follower": "popcorn"
+    - "featureName": "SpringBoot.Structure"
+
