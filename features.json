@@ -18,6 +18,16 @@
                     "followers": []
                 }
             ]
+        },
+        "java-lib-seed": {
+            "features": [
+                {
+                    "name": "SpringBoot.Structure",
+                    "followers": [
+                        "artist"
+                    ]
+                }
+            ]
         }
     }
 }
