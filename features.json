@@ -26,6 +26,16 @@
                     ]
                 }
             ]
+        },
+        "demo10": {
+            "features": [
+                {
+                    "name": "SpringBoot.Structure",
+                    "followers": [
+                        "rr1"
+                    ]
+                }
+            ]
         }
     }
 }
