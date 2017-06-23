@@ -1,5 +1,5 @@
 {
-            "repos": {
+            "repositories": {
                 "spring-rest-seed": [
                     "Maven.+",
                     "Spring.+"
