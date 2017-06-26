@@ -208,3 +208,17 @@ editor:
     - "follower": "rr2"
     - "featureName": "SpringBoot.Structure"
 
+---
+kind: "operation"
+client: "com.atomist:rug"
+version: "1.0.0-20170609011313"
+editor:
+  name: "AddFeatureFollowerEditor"
+  group: "atomist"
+  artifact: "spring-team-handlers"
+  version: "0.4.7"
+  parameters:
+    - "broadcaster": "spring-rest-seed"
+    - "follower": "mendehlsson"
+    - "featureName": "SpringBoot.Structure"
+
