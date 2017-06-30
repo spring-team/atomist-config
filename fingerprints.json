@@ -1,14 +1,63 @@
 {
-            "repositories": {
-                "spring-rest-seed": [
-                    "Maven.+",
-                    "Spring.+",
-                    "Travis.+"
-                ],
-                "$default$" : [
-                    "Maven.+",
-                    "Spring.+",
-                    "Travis.+"
-                ]
-            }
+    "repositories": {
+        "spring-rest-seed": [
+            "Docker.+",
+            "Maven.+",
+            "Spring.+",
+            "Travis.+"
+        ],
+        "$default$": [
+            "Docker.+",
+            "Maven.+",
+            "Spring.+",
+            "Travis.+"
+        ]
+    },
+    "snapshotters": {
+        "SpringBootApplicationProperties": {
+            "filePatterns": [
+                "src/main/resources/application.properties",
+                "src/main/resources/bootstrap.properties",
+                "src/main/resources/application-*.properties"
+            ]
         }
+    },
+    "fingerprints": {
+        "deps": {
+            "name": "MavenDependencies",
+            "description": "",
+            "level": "warning",
+            "status": "success"
+        },
+        "docker": {
+            "name": "DockerfileFeature",
+            "description": "",
+            "level": "warning",
+            "status": "failure"
+        },
+        "plugins": {
+            "name": "MavenPlugins",
+            "description": "",
+            "level": "warning",
+            "status": "success"
+        },
+        "properties": {
+            "name": "SpringBootApplicationProperties",
+            "description": "",
+            "level": "warning",
+            "status": "failure"
+        },
+        "rest": {
+            "name": "SpringRestMVC",
+            "description": "",
+            "level": "warning",
+            "status": "failure"
+        },
+        "travis": {
+            "name": "TravisFeature",
+            "description": "",
+            "level": "warning",
+            "status": "failure"
+        }
+    }
+}
