@@ -2,11 +2,13 @@
             "repositories": {
                 "spring-rest-seed": [
                     "Maven.+",
-                    "Spring.+"
+                    "Spring.+",
+                    "Travis.+"
                 ],
                 "$default$" : [
                     "Maven.+",
-                    "Spring.+"
+                    "Spring.+",
+                    "Travis.+"
                 ]
             }
         }
