@@ -1,2 +1,3 @@
 # atomist-config
-Atomist configuration
+
+Here be stored the configuration
